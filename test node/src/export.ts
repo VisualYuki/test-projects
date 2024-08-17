@@ -1,0 +1,3 @@
+interface myInt {
+	name: string;
+}

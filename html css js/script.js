@@ -1,12 +1,5 @@
-let animal = {
-	eats: true,
-};
-let rabbit = {
-	jumps: true,
-};
+const i = 1;
+const j = 2;
 
-rabbit.__proto__ = animal; // (*)
-debugger;
-// теперь мы можем найти оба свойства в rabbit:
-alert(rabbit.eats); // true (**)
-alert(rabbit.jumps); // true
+console.log("---" + i + "" + j + "---");
+console.log(`---${i}${j}---`);

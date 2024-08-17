@@ -5,16 +5,21 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Document</title>
 		<link rel="stylesheet" href="./style.css" />
+		<script src="https://pixijs.download/release/pixi.js"></script>
+		<link rel="manifest" href="/manifest.json" />
 	</head>
 	<body>
 		<h1>hello</h1>
-		<script src="../node_modules/lodash.clonedeep/index.js"></script>
-		<script type="module" src="./script.js">
-			import { i } from "./export.js";
 
-			console.log(i);
-		</script>
+		<!--<script>
+			// Create the application helper and add its render target to the page
+			let app = new PIXI.Application({ width: 640, height: 360 });
+			document.body.appendChild(app.view);
 
-		<!--<script src="./script.js"></script>-->
+			// Create the sprite and add it to the stage
+			let sprite = PIXI.Sprite.from("sample.png");
+			app.stage.addChild(sprite);
+		</script>-->
+		<script src="./script.js"></script>
 	</body>
 </html>

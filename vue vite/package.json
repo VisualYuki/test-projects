@@ -1,20 +1,26 @@
 {
-  "name": "vue-vite",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "vue-tsc && vite build",
-    "preview": "vite preview"
-  },
-  "dependencies": {
-    "vue": "^3.3.11"
-  },
-  "devDependencies": {
-    "@vitejs/plugin-vue": "^4.5.2",
-    "typescript": "^5.2.2",
-    "vite": "^5.0.8",
-    "vue-tsc": "^1.8.25"
-  }
+	"name": "vue-vite",
+	"private": true,
+	"version": "0.0.0",
+	"type": "module",
+	"scripts": {
+		"dev": "vite --host",
+		"build": "vue-tsc && vite build",
+		"preview": "vite preview"
+	},
+	"dependencies": {
+		"@vee-validate/i18n": "^4.12.6",
+		"@vuelidate/core": "^2.0.3",
+		"@vuelidate/validators": "^2.0.4",
+		"element-plus": "^2.6.1",
+		"vee-validate": "^4.12.6",
+		"vue": "^3.3.11",
+		"vuelidate": "^0.7.7"
+	},
+	"devDependencies": {
+		"@vitejs/plugin-vue": "^4.5.2",
+		"typescript": "^5.2.2",
+		"vite": "^5.0.8",
+		"vue-tsc": "^1.8.25"
+	}
 }
