@@ -1,5 +1,14 @@
-const i = 1;
-const j = 2;
+let first = {
+	outline: {
+		level: "1",
+	},
+};
+let second = {
+	outline: {
+		label: "sdfsdf",
+	},
+};
 
-console.log("---" + i + "" + j + "---");
-console.log(`---${i}${j}---`);
+let result = { ...second, ...first };
+
+console.log(result);
