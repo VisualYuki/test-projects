@@ -1,14 +1,4 @@
-let first = {
-	outline: {
-		level: "1",
-	},
-};
-let second = {
-	outline: {
-		label: "sdfsdf",
-	},
-};
-
-let result = { ...second, ...first };
-
-console.log(result);
+document.getElementById("label").addEventListener("click", (e) => {
+	console.log(e.target);
+	console.log(e.currentTarget);
+});

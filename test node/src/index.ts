@@ -1,12 +1,3 @@
-interface Person {
-	name: string;
-}
+import { sum } from "./sum";
 
-interface Lifespan {
-	birth: Date;
-	death?: Date;
-}
-
-type PersonSpan = Person & Lifespan;
-
-type K = keyof (Person & Lifespan);
+console.log(sum(1, 2));
